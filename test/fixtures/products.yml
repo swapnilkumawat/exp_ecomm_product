@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  material_code: MyString
+  product_category: MyString
+  status: 1
+
+two:
+  name: MyString
+  material_code: MyString
+  product_category: MyString
+  status: 1
