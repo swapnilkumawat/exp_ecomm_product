@@ -3,7 +3,7 @@ class Api::V1::NewsController < ApplicationController
   before_action :restrict_access
 
   def index
-    @all_news = News.all 
+    @all_news = News.includes(:source)
   end
 
   def create_news_feeds
