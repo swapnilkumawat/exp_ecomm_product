@@ -5,9 +5,11 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version - 2.7.2
+* Use Ruby version - 2.7.2
 
-* rails db:setup
+* bundle install
+
+* rails db:create
 
 * rails db:migrate
 
