@@ -5,20 +5,26 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - 2.7.2
 
-* System dependencies
+* rails db:setup
 
-* Configuration
+* rails db:migrate
 
-* Database creation
+* API endpoint to import products csv to our database -
+  
+  POST http://localhost:3000/api/v1/products/import
 
-* Database initialization
+  A parameter 'file' will be required to upload csv file.
 
-* How to run the test suite
+* API endpoint to get all available products -
 
-* Services (job queues, cache servers, search engines, etc.)
+  GET http://localhost:3000/api/v1/products
 
-* Deployment instructions
+* API endpoint to create all News Feed into our database -
 
-* ...
+  POST http://localhost:3000/api/v1/news/create_news_feeds
+
+* API endpoint to get all News from our Database -
+
+  GET http://localhost:3000/api/v1/news
